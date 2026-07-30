@@ -1,7 +1,16 @@
 function Home() {
     return(
         <>
-            <h1>Tell me, what is it you plan to dowith your one wild and precious life?</h1>
+            <div style={{
+                width: "100%",
+                height: "98vh",
+                display: "flex",
+                alignItems: "center",
+                flexDirection: "column",
+                justifyContent: "center",
+                }}>
+                <h1>Tell me, what is it you plan to dowith your one wild and precious life?</h1>
+            </div>
         </>
     )
 }
