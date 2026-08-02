@@ -11,25 +11,14 @@ function Home() {
           justifyContent: "center",
         }}
       >
-        <h1>
+        <h1>JSXTI is Near...</h1>
+        <p>
           Tell me, what is it you plan to dowith your one wild and precious
           life?
-        </h1>
+        </p>
       </div>
     </>
   );
-}
-
-function test() {
-  console.log("test");
-}
-
-function teste() {
-  console.log("ola");
-}
-
-function teste1() {
-  console.log();
 }
 
 export default Home;
