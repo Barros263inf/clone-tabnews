@@ -9,4 +9,5 @@ test("POST to /api/v1/migrations should return 200", async () => {
   console.log(responseBody);
 
   expect(Array.isArray(responseBody)).toBe(true);
+  expect(responseBody.length).toBe(0);
 });
