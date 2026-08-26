@@ -1,4 +1,4 @@
-function Home() {
+function About() {
   return (
     <>
       <div
@@ -11,12 +11,11 @@ function Home() {
           justifyContent: "center",
         }}
       >
-        <a href="/about">Go to about</a>
-        <h1>JSXTI is Near...</h1>
-        <p>Tell me, what is it you plan to dowith your one wild and precious life?</p>
+        <a href="/">Back to home</a>
+        <h1>About</h1>
       </div>
     </>
   );
 }
 
-export default Home;
+export default About;
